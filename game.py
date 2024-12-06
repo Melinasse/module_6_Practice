@@ -44,7 +44,7 @@ class Game(arcade.Window):
         self.sprite_list.draw()
 
     def on_update(self, delta):
-        print(f"Ball position: {self.ball.center_x}")
+        print(f"Положение мяча: {self.ball.center_x}")
         self.sprite_list.update()
 
 
